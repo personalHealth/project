@@ -5,7 +5,7 @@ import ButtonHome from "@/components/ButtonHome";
 
 export default function Pelis() {
   return (
-    <div className="flex flex-col w-[100dvw] h-[100dvh] overflow-x-hidden overflow-y-hidden">
+    <div className="flex flex-col w-[100dvw] h-[100dvh] overflow-x-hidden overflow-y-auto">
       <section className="flex gap-3">
         <Logo />
         <h2
