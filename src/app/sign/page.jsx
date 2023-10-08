@@ -15,7 +15,7 @@ export default function Sign() {
             Bienvenido a TV HD!
           </h1>
           <section className="py-9">
-            <p className="py-1 text-gray-800 dark:text-gray-100">
+            <p className="py-1 text-lg text-gray-800 dark:text-gray-100">
               Disfruta la mejor 📺 televisión Argentina, y los pack hd HBO, pack
               FÚTBOL, pack HOT y más aquí.
             </p>
