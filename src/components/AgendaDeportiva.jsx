@@ -21,7 +21,7 @@ export default function AgendaDeportiva() {
           className="absolute flex left-2 mt-6 md:w-6/12 h-4/6 md:left-1/3"
           title="agenda"
           allowfullscreen="true"
-          src="https://futbol-libre.org/agenda/"
+          src="https://www.futbol-libre.org/home/agenda/"
         ></iframe>
       ) : null}
     </div>

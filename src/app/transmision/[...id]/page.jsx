@@ -3,6 +3,7 @@ import { allchannels } from "@/components/Channels";
 import Control from "@/components/Control";
 import ButtonHome from "@/components/ButtonHome";
 import Transmisions from "@/components/Transmisions";
+import ButtonsZapping from "@/components/ButtonsZapping";
 
 export default function Transmision({ params }) {
   const chanellFind = allchannels.find(
@@ -19,6 +20,7 @@ export default function Transmision({ params }) {
     >
       <Transmisions chanellFind={chanellFind} />
       <Control />
+      <ButtonsZapping id={params.id} />
       <ButtonHome />
     </div>
   );
