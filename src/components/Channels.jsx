@@ -1,9 +1,7 @@
-import getChannels from "@/app/data/chanels";
 import CardChanell from "@/components/CardChanell";
 import AgendaDeportiva from "@/components/AgendaDeportiva";
 
-export const allchannels = await getChannels();
-export default async function Chanells() {
+export default async function Chanells({ allchannels }) {
   return (
     <div className="">
       <div className="flex justify-center items-center my-1 gap-1 ">
