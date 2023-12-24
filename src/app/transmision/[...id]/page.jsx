@@ -1,5 +1,5 @@
 import React from "react";
-import { allchannels } from "@/components/Channels";
+import { allchannels } from "@/app/page";
 import Control from "@/components/Control";
 import ButtonHome from "@/components/ButtonHome";
 import Transmisions from "@/components/Transmisions";
