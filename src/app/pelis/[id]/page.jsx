@@ -1,9 +1,9 @@
 import React from "react";
-import { allmovies } from "@/components/Movies";
+import { allmovies } from "@/app/pelis/page";
 import ButtonHome from "@/components/ButtonHome";
 import SalaMovie from "@/components/SalaMovie";
 
-export default function SalaMovies({ params }) {
+export default async function SalaMovies({ params }) {
   const movieFind = allmovies.find((movie) => movie.id === params.id);
 
   return (
