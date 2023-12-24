@@ -6,9 +6,9 @@ import Footer from "@/components/Footer";
 import { getKindeServerSession } from "@kinde-oss/kinde-auth-nextjs/server";
 import Sign from "@/app/sign/page";
 
+export const allchannels = await getChannels();
 export default async function Home() {
   const { getUser, isAuthenticated } = getKindeServerSession();
-  const allchannels = await getChannels();
   const user = getUser();
   const auth = isAuthenticated();
 
