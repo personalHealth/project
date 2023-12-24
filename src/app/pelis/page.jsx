@@ -4,8 +4,8 @@ import Movies from "@/components/Movies";
 import Logo from "@/components/Logo";
 import ButtonHome from "@/components/ButtonHome";
 
+export const allmovies = await getMovies();
 export default async function Pelis() {
-  const allmovies = await getMovies();
   return (
     <div className="flex flex-col w-[100dvw] h-[100dvh]">
       <section className="flex gap-3">
