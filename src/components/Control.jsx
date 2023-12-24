@@ -1,5 +1,5 @@
 import React from "react";
-import { allchannels } from "@/components/Channels";
+import { allchannels } from "@/app/page";
 import Link from "next/link";
 
 export default function Control() {
