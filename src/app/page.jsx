@@ -10,9 +10,9 @@ export default function Home() {
   const user = getUser();
   const auth = isAuthenticated();
 
-  if (!auth) {
-    return <Sign />;
-  } else
+  // if (!auth) {
+  //   return <Sign />;
+  // } else
     return (
       <main className="bg-slate-600 bg-cover">
         <NavBar />

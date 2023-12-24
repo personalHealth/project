@@ -64,7 +64,7 @@ export default function NavBar() {
           </div>
           <div className="relative w-32 md:w-40">
             <div
-              id="peliserie"
+              id="serie"
               className="h-10 bg-blue flex border border-gray-500 rounded items-center"
             >
               <div
@@ -106,9 +106,9 @@ export default function NavBar() {
               <div className="cursor-pointer hover:bg-sky-200 ">
                 <Link
                   className="block p-2 border-transparent border-l-4 group-hover:border-blue-600 border-blue-600 group-hover:bg-gray-100"
-                  href={"/peliserie"}
+                  href={"/series"}
                 >
-                  Peliserie <strong>(Con bloq. anuncios)</strong>
+                  Series
                 </Link>
               </div>
             </div>
